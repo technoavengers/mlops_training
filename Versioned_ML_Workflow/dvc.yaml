@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - data/walmart.csv
+    outs:
+      - metrics.txt

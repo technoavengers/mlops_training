@@ -1,0 +1,5 @@
+pandas==1.5.3                # Data manipulation library
+scikit-learn==1.2.2          # ML models and metrics
+pyyaml==6.0                  # To read params.yaml
+mlflow==2.0.1                # Experiment tracking
+category_encoders==2.5.1     # For encoding categorical features (if needed)

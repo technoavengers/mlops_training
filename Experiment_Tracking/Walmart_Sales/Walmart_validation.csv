@@ -1,0 +1,10 @@
+transaction_id,customer_id,product_id,product_name,category,quantity_sold,unit_price,transaction_date,store_id,store_location,inventory_level,reorder_point,reorder_quantity,supplier_id,supplier_lead_time,customer_age,customer_gender,customer_income,customer_loyalty_level,payment_method,promotion_applied,promotion_type,weather_conditions,holiday_indicator,weekday,stockout_indicator,forecasted_demand,actual_demand
+1,2824,843,Fridge,Electronics,3,188.46,3/31/2024 21:46,3,"Miami, FL",246,116,170,474,8,29,Other,98760.83,Silver,Credit Card,TRUE,None,Stormy,FALSE,Friday,TRUE,172,179
+2,1409,135,TV,Electronics,4,1912.04,7/28/2024 12:45,5,"Dallas, TX",43,70,212,135,4,34,Other,69781.93,Gold,Cash,TRUE,Percentage Discount,Rainy,FALSE,Monday,TRUE,109,484
+3,5506,391,Fridge,Electronics,4,1377.75,6/10/2024 4:55,1,"Los Angeles, CA",411,94,252,475,2,69,Other,77373.1,Platinum,Cash,FALSE,None,Sunny,FALSE,Tuesday,TRUE,289,416
+4,5012,710,Smartphone,Electronics,5,182.31,8/15/2024 1:03,5,"Miami, FL",452,87,112,118,7,47,Other,33383.04,Silver,Cash,TRUE,Percentage Discount,Sunny,TRUE,Sunday,FALSE,174,446
+5,4657,116,Laptop,Electronics,3,499.28,9/13/2024 0:45,6,"Chicago, IL",412,99,177,155,4,70,Female,108999.41,Bronze,Digital Wallet,FALSE,None,Sunny,FALSE,Thursday,TRUE,287,469
+6,3286,630,Camera,Electronics,4,1465.38,7/6/2024 7:24,1,"New York, NY",196,80,210,169,4,40,Male,31779.77,Bronze,Credit Card,TRUE,None,Sunny,TRUE,Saturday,FALSE,294,265
+7,2679,238,Laptop,Appliances,3,1904.7,3/17/2024 22:33,3,"Dallas, TX",24,52,287,250,3,54,Female,75813.17,Platinum,Cash,FALSE,BOGO,Sunny,FALSE,Sunday,TRUE,178,257
+8,9935,409,Tablet,Electronics,4,875.16,7/22/2024 13:57,16,"Los Angeles, CA",125,92,178,248,5,57,Female,115784.29,Silver,Debit Card,FALSE,Percentage Discount,Rainy,TRUE,Thursday,TRUE,165,264
+9,2424,106,Camera,Electronics,4,1627.48,3/30/2024 4:10,12,"New York, NY",103,129,172,368,4,64,Other,77392.78,Platinum,Credit Card,FALSE,None,Sunny,TRUE,Saturday,TRUE,476,428

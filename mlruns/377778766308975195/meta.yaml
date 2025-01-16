@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/377778766308975195
+creation_time: 1736928408420
+experiment_id: '377778766308975195'
+last_update_time: 1736928408420
+lifecycle_stage: active
+name: Titanic Survivor Model Experiment

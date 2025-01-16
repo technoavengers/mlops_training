@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905793143919143524/682cd4dda27f4e3fa203c7dcc49e3514/artifacts
+end_time: 1737009078870
+entry_point_name: ''
+experiment_id: '905793143919143524'
+lifecycle_stage: active
+run_id: 682cd4dda27f4e3fa203c7dcc49e3514
+run_name: likeable-panda-745
+run_uuid: 682cd4dda27f4e3fa203c7dcc49e3514
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737009073429
+status: 3
+tags: []
+user_id: Navdeep

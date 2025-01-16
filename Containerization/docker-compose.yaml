@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  mlflow_server:
+    build:
+      context: ./mlflow_server
+    ports:
+      - "5000:5000"  # Expose the MLflow server
+    container_name: mlflow_server
+
+  preprocessing_training:
+    build:
+      context: ./preprocessing_training
+    volumes:
+      - ./shared/:/shared/
+    depends_on:
+      - mlflow_server  # Ensure MLflow server starts before training
+    container_name: preprocessing_training
+
+  serving:
+    build:
+      context: ./model_serving
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./shared/:/shared/
+    container_name: model_serving

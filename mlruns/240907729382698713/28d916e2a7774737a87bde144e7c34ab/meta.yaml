@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/240907729382698713/28d916e2a7774737a87bde144e7c34ab/artifacts
+end_time: 1736944920638
+entry_point_name: ''
+experiment_id: '240907729382698713'
+lifecycle_stage: active
+run_id: 28d916e2a7774737a87bde144e7c34ab
+run_name: nimble-trout-444
+run_uuid: 28d916e2a7774737a87bde144e7c34ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736944917111
+status: 3
+tags: []
+user_id: Navdeep

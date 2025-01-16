@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    deps:
+    - path: data/walmart.csv
+      hash: md5
+      md5: 80fc015012d21699fd30e667760b911d
+      size: 881721
+    - path: train.py
+      hash: md5
+      md5: ee91b3c92e490e0752fa1596dfaa270c
+      size: 3013
+    outs:
+    - path: metrics.txt
+      hash: md5
+      md5: 019a595ecbff53ce330be75601408f94
+      size: 64

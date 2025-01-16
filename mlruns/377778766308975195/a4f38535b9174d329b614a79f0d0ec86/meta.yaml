@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/377778766308975195/a4f38535b9174d329b614a79f0d0ec86/artifacts
+end_time: 1736928704905
+entry_point_name: ''
+experiment_id: '377778766308975195'
+lifecycle_stage: active
+run_id: a4f38535b9174d329b614a79f0d0ec86
+run_name: bright-lynx-13
+run_uuid: a4f38535b9174d329b614a79f0d0ec86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736928700436
+status: 3
+tags: []
+user_id: Navdeep

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/905793143919143524/f684c58cba2741fd962681e49b475845/artifacts
+end_time: 1737009791176
+entry_point_name: ''
+experiment_id: '905793143919143524'
+lifecycle_stage: active
+run_id: f684c58cba2741fd962681e49b475845
+run_name: useful-fox-130
+run_uuid: f684c58cba2741fd962681e49b475845
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737009785807
+status: 3
+tags: []
+user_id: Navdeep

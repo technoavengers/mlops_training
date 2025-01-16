@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/240907729382698713/162a70c6a48049b3ba26221ba443661c/artifacts
+end_time: 1737015644126
+entry_point_name: ''
+experiment_id: '240907729382698713'
+lifecycle_stage: active
+run_id: 162a70c6a48049b3ba26221ba443661c
+run_name: merciful-hare-627
+run_uuid: 162a70c6a48049b3ba26221ba443661c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737015641396
+status: 3
+tags: []
+user_id: Navdeep
