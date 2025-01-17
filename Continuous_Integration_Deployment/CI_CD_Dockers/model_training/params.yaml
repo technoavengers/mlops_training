@@ -1,0 +1,6 @@
+n_estimators: 100          # Number of trees
+max_depth: null            # No maximum depth
+min_samples_split: 2       # Minimum samples required to split an internal node
+min_samples_leaf: 1        # Minimum samples required to be a leaf node
+random_state: 42           # Random seed for reproducibility
+test_size: 0.2             # Test set proportion
