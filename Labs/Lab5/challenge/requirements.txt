@@ -1,6 +1,0 @@
-evidently
-pandas
-scikit-learn
-mlflow
-dvc
-joblib

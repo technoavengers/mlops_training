@@ -1,7 +1,7 @@
 import requests
 
 # API endpoint
-url = "http://localhost:8000/predict/"
+url = "http://localhost:8002/predict/"
 
 # Test payload
 payload = {
