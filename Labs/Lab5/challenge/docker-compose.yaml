@@ -67,7 +67,6 @@ x-airflow-common:
     - ./data:/opt/airflow/data
     - ./scripts:/opt/airflow/dags/scripts
     - ./model:/opt/airflow/model
-    - ./logs:/opt/airflow/logs
     - ./conf/airflow.cfg:/opt/airflow/airflow.cfg
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
