@@ -1,0 +1,9 @@
+transaction_date,store,category,amount,units
+2023-01-01,StoreA,Electronics,1000,10
+2023-01-02,StoreB,Furniture,2000,20
+2023-01-03,StoreA,Clothing,1500,15
+2023-01-04,StoreB,Electronics,1200,12
+2023-01-05,StoreA,Clothing,2000,10
+2023-01-06,StoreB,Electronics,1800,15
+2023-01-05,StoreA,Appliances,2000,10
+2023-01-06,StoreC,Appliances,1800,15

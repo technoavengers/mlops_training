@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: python train.py
+    deps:
+      - train.py
+      - data/sales.csv
+      - params.yaml
+    outs:
+      - metrics.txt
