@@ -5,7 +5,3 @@ scrape_configs:
   - job_name: 'model_serving'
     static_configs:
       - targets: ['serving:8001']
-
-  - job_name: 'model_training'
-    static_configs:
-      - targets: ['training:8002']
