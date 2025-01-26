@@ -1,3 +1,4 @@
+import argparse
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
@@ -22,3 +23,26 @@ def encode_categorical(dataset, categorical_columns):
     for col in categorical_columns:
         dataset[col] = encoder.fit_transform(dataset[col].astype(str))
     return dataset
+
+def main():
+    parser = argparse.ArgumentParser(description='Data preprocessing for Walmart Demand dataset')
+    parser.add_argument('--input', type=str, required=True, help='Input file path (CSV)')
+    parser.add_argument('--output', type=str, required=True, help='Output file path (CSV)')
+    args = parser.parse_args()
+
+    # Load dataset and preprocess
+    dataset = load_dataset(args.input)
+    
+    categorical_columns = [
+    'category', 'store_location', 'payment_method', 'promotion_applied', 
+    'promotion_type', 'weather_conditions', 'holiday_indicator', 'weekday', 
+    'customer_loyalty_level', 'customer_gender'
+    ]
+    dataset = encode_categorical(dataset, categorical_columns)
+
+    # Save the processed dataset
+    dataset.to_csv(args.output, index=False)
+    print(f"Preprocessed data saved to {args.output}")
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,26 @@
+transaction_id,customer_id,product_id,product_name,category,quantity_sold,unit_price,transaction_date,store_id,store_location,inventory_level,reorder_point,reorder_quantity,supplier_id,supplier_lead_time,customer_age,customer_gender,customer_income,customer_loyalty_level,payment_method,promotion_applied,promotion_type,weather_conditions,holiday_indicator,weekday,stockout_indicator,forecasted_demand,actual_demand
+1,2824,843,Fridge,Electronics,3,188.46,3/31/2024 21:46,3,"Miami, FL",246,116,170,474,8,29,Other,98760.83,Silver,Credit Card,TRUE,None,Stormy,FALSE,Friday,TRUE,172,179
+2,1409,135,TV,Electronics,4,1912.04,7/28/2024 12:45,5,"Dallas, TX",43,70,212,135,4,34,Other,69781.93,Gold,Cash,TRUE,Percentage Discount,Rainy,FALSE,Monday,TRUE,109,484
+3,5506,391,Fridge,Electronics,4,1377.75,6/10/2024 4:55,1,"Los Angeles, CA",411,94,252,475,2,69,Other,77373.1,Platinum,Cash,FALSE,None,Sunny,FALSE,Tuesday,TRUE,289,416
+4,5012,710,Smartphone,Electronics,5,182.31,8/15/2024 1:03,5,"Miami, FL",452,87,112,118,7,47,Other,33383.04,Silver,Cash,TRUE,Percentage Discount,Sunny,TRUE,Sunday,FALSE,174,446
+5,4657,116,Laptop,Electronics,3,499.28,9/13/2024 0:45,6,"Chicago, IL",412,99,177,155,4,70,Female,108999.41,Bronze,Digital Wallet,FALSE,None,Sunny,FALSE,Thursday,TRUE,287,469
+6,3286,630,Camera,Electronics,4,1465.38,7/6/2024 7:24,1,"New York, NY",196,80,210,169,4,40,Male,31779.77,Bronze,Credit Card,TRUE,None,Sunny,TRUE,Saturday,FALSE,294,265
+7,2679,238,Laptop,Appliances,3,1904.7,3/17/2024 22:33,3,"Dallas, TX",24,52,287,250,3,54,Female,75813.17,Platinum,Cash,FALSE,BOGO,Sunny,FALSE,Sunday,TRUE,178,257
+8,9935,409,Tablet,Electronics,4,875.16,7/22/2024 13:57,16,"Los Angeles, CA",125,92,178,248,5,57,Female,115784.29,Silver,Debit Card,FALSE,Percentage Discount,Rainy,TRUE,Thursday,TRUE,165,264
+9,2424,106,Camera,Electronics,4,1627.48,3/30/2024 4:10,12,"New York, NY",103,129,172,368,4,64,Other,77392.78,Platinum,Credit Card,FALSE,None,Sunny,TRUE,Saturday,TRUE,476,428
+10,7912,407,Laptop,Appliances,5,666.27,6/17/2024 16:59,10,"Chicago, IL",424,88,253,494,1,24,Male,44787.7,Bronze,Digital Wallet,TRUE,None,Sunny,TRUE,Monday,TRUE,395,400
+11,1520,327,Tablet,Electronics,3,155.24,4/3/2024 11:37,12,"Los Angeles, CA",377,135,167,104,9,67,Male,101268.72,Platinum,Cash,FALSE,None,Stormy,FALSE,Sunday,TRUE,303,181
+12,1488,319,Smartphone,Appliances,3,1076.79,6/19/2024 10:41,9,"Miami, FL",411,60,115,290,8,25,Female,52253.32,Silver,Debit Card,TRUE,None,Cloudy,TRUE,Monday,TRUE,270,185
+13,2535,976,Headphones,Appliances,2,1165.56,3/1/2024 4:08,3,"New York, NY",346,144,297,300,3,49,Female,22027.62,Bronze,Digital Wallet,FALSE,None,Sunny,TRUE,Thursday,FALSE,141,127
+14,4582,422,Washing Machine,Appliances,3,778.17,6/24/2024 17:34,13,"Miami, FL",118,94,188,410,5,30,Female,65337.53,Gold,Digital Wallet,FALSE,None,Rainy,TRUE,Thursday,FALSE,273,446
+15,4811,122,TV,Appliances,2,399.52,7/11/2024 11:58,9,"Los Angeles, CA",31,104,274,427,5,54,Male,81043.27,Bronze,Digital Wallet,FALSE,None,Stormy,FALSE,Saturday,TRUE,221,244
+16,9279,890,Camera,Appliances,4,639.33,5/2/2024 19:28,17,"Dallas, TX",258,113,239,252,8,20,Male,55162.4,Silver,Debit Card,TRUE,None,Sunny,TRUE,Friday,FALSE,433,294
+17,1434,941,Laptop,Appliances,3,457.92,3/1/2024 14:26,16,"Miami, FL",417,65,116,165,9,68,Female,84105.52,Silver,Debit Card,FALSE,None,Sunny,TRUE,Friday,FALSE,415,191
+18,4257,806,Laptop,Electronics,5,1201.92,6/26/2024 4:41,20,"New York, NY",191,58,184,153,4,43,Other,28754.82,Platinum,Debit Card,FALSE,None,Sunny,FALSE,Tuesday,TRUE,348,418
+19,9928,942,TV,Electronics,4,649.8,6/2/2024 20:20,5,"Miami, FL",149,108,125,157,10,44,Male,65975.21,Bronze,Cash,FALSE,None,Sunny,FALSE,Monday,TRUE,172,477
+20,7873,382,TV,Appliances,3,1155.98,7/21/2024 20:20,3,"Miami, FL",144,106,254,478,1,38,Other,106725.94,Platinum,Digital Wallet,TRUE,Percentage Discount,Rainy,FALSE,Thursday,TRUE,362,451
+21,4611,666,Headphones,Electronics,4,160.4,5/18/2024 14:04,2,"Los Angeles, CA",44,90,294,360,8,21,Male,77489.83,Silver,Credit Card,FALSE,BOGO,Sunny,FALSE,Saturday,TRUE,130,157
+22,8359,623,Smartphone,Electronics,4,781.98,2/6/2024 9:06,9,"Dallas, TX",270,76,157,346,2,65,Other,86773.84,Gold,Credit Card,FALSE,None,Rainy,TRUE,Wednesday,TRUE,315,507
+23,5557,669,TV,Appliances,5,565.22,3/3/2024 11:00,13,"Chicago, IL",332,124,257,257,3,43,Female,90816.55,Bronze,Cash,FALSE,None,Sunny,FALSE,Monday,FALSE,434,364
+24,1106,684,Headphones,Electronics,5,1503.41,1/30/2024 9:19,14,"Chicago, IL",154,120,165,466,2,50,Female,57698.63,Gold,Debit Card,FALSE,None,Stormy,TRUE,Tuesday,TRUE,146,330
+25,3615,685,Smartphone,Electronics,4,466.9,8/3/2024 4:57,5,"Dallas, TX",127,148,139,400,3,51,Male,44320.68,Gold,Digital Wallet,TRUE,Percentage Discount,Rainy,TRUE,Friday,TRUE,280,506

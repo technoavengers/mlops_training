@@ -1,0 +1,47 @@
+stages:
+  data_preprocessing:
+    cmd: python data_preprocessing.py --input data/walmart.csv --output data/preprocessed_data.csv
+    deps:
+      - data/walmart.csv
+      - data_preprocessing.py
+    outs:
+      - data/preprocessed_data.csv
+
+  train:
+    cmd: python train.py --input data/preprocessed_data.csv --output model/random_forest_model.pkl --params params.yaml
+    deps:
+      - data/preprocessed_data.csv
+      - train.py
+      - params.yaml
+    outs:
+      - model/random_forest_model.pkl
+
+  test_data_preprocessing:
+    cmd: python data_preprocessing.py --input data/test_data.csv --output data/test_preprocessed_data.csv
+    deps:
+      - data/test_data.csv
+      - data_preprocessing.py
+    outs:
+      - data/test_preprocessed_data.csv
+
+  evaluate:
+    cmd: python evaluate.py --model model/random_forest_model.pkl --test_data data/test_preprocessed_data.csv --output output/metrics.txt
+    deps:
+      - model/random_forest_model.pkl
+      - evaluate.py
+      - data/test_data.csv
+    outs:
+      - output/metrics.txt
+
+  track:
+      cmd: python tracking.py --model model/random_forest_model.pkl --params params.yaml --metrics output/metrics.txt
+      deps:
+        - model/random_forest_model.pkl
+        - params.yaml
+        - output/metrics.txt
+
+  test:
+    cmd: python -m pytest test/unit_test.py
+    deps:
+      - test/unit_test.py
+      - model/random_forest_model.pkl
