@@ -66,9 +66,9 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./data:/opt/airflow/data
     - ./scripts:/opt/airflow/dags/scripts
-    - ./model:/opt/airflow/model
+    - ./model:/opt/airflow/model:rw
     - ./conf/airflow.cfg:/opt/airflow/airflow.cfg
-  user: "${AIRFLOW_UID:-50000}:0"
+  user: "${UID}:${GID}"
   depends_on:
     &airflow-common-depends-on
     redis:

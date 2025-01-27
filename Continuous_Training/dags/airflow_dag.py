@@ -32,7 +32,7 @@ with DAG(
     "continuous_training_pipeline",
     default_args=default_args,
     description="Continuous Training Pipeline",
-    schedule_interval="0 12 * * *",
+    schedule_interval= None,
     start_date=datetime(2025, 1, 1),
     catchup=False,
 ) as dag:
