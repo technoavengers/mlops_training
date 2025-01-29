@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from preprocessing import load_dataset, encode_categorical, preprocess_data
+from Continuous_Integration_Deployment.CI_CD_Dockers.model_training_serving_workflow.scripts.preprocessing import load_dataset, encode_categorical, preprocess_data
 
 
 @pytest.fixture

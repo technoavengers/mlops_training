@@ -51,7 +51,7 @@ jobs:
 
       - name: Train the model and upload to S3
         run: |
-          python training.py
+          python training/training.py
           aws s3 cp /tmp/random_forest_model.pkl s3://dvcmlops1234/model_storage/random_forest_model.pkl
           aws s3 cp /tmp/scaler.pkl s3://dvcmlops1234/model_storage/scaler.pkl
     env:
@@ -83,7 +83,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/model_serving .
+          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/model_serving ./serving
 
       - name: Push Docker Image
         run: |
