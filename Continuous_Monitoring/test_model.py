@@ -1,7 +1,7 @@
 import requests
 
 # API endpoint
-url = "http://localhost:8000/predict/"
+url = "https://my-cloudrun-service-882415510557.us-central1.run.app/predict/"
 
 # Test payload
 payload = {
