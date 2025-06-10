@@ -53,7 +53,7 @@ You should see a `Ready` status.
 
 ### ☘️ Step 1: Explore Pod YAML File
 
-Open `Lab2/flask_pod.yaml` and review the configuration:
+Open `Lab7/flask_pod.yaml` and review the configuration:
 
 ```yaml
 apiVersion: v1
@@ -76,7 +76,7 @@ spec:
 Open terminal and run below command to run a Pod
 
 ```bash
-cd ~/swift_training/Lab2
+cd ~/mlops_training/Labs/Lab7
 kubectl apply -f flask_pod.yaml
 ```
 
@@ -141,7 +141,7 @@ kubectl delete pod flask-app
 
 ### ☘️ Step 1: Explore ReplicaSet YAML File
 
-Explore replicaset file in `Lab2/flask_replicaset.yaml`:
+Explore replicaset file in `Lab7/flask_replicaset.yaml`:
 
 ```yaml
 apiVersion: apps/v1
