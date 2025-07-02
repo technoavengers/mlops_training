@@ -4,8 +4,8 @@ import joblib
 from preprocessing import preprocess_data
 
 # Load model and scaler
-model_path = "/shared/random_forest_model.pkl"
-scaler_path = "/shared/scaler.pkl"
+model_path = "shared/random_forest_model.pkl"
+scaler_path = "shared/scaler.pkl"
 model = joblib.load(model_path)
 
 app = FastAPI()
