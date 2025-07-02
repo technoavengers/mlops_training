@@ -34,11 +34,6 @@ Start your Minikube cluster:
 minikube start
 ```
 
-Add a Worker node
-```bash
-minikube node add
-```
-
 Verify that the node is up and running:
 
 ```bash
@@ -118,7 +113,7 @@ kubectl logs flask-app
 ### ☘️ Step 7: Connect to Pod Shell
 
 ```bash
-kubectl exec -it flask-app bash
+kubectl exec -it flask-app -- bash
 ```
 
 Exit using:
