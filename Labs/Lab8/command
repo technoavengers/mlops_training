@@ -1,5 +1,14 @@
+pip install uvicorn fastapi pandas joblib scikit-learn
+
+//Go to thi Folder first in terminal
+cd Labs/Lab8
+
+//Run your FastAPI app using below command
 uvicorn serving:app --host 0.0.0.0 --port 8080
 
-localhost:8080/predict
+//Open browser and check below url
+http://localhost:8080/predict
 
-localhost:8080/docs
+
+//Open browser and check below url
+http://localhost:8080/docs
