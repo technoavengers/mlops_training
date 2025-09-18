@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # Prometheus Service
+  
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9094:9090"
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    networks:
+      - monitoring
+
+  # Grafana Service
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    volumes:
+      - grafana-data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    ports:
+      - "3004:3000"
+    depends_on:
+      - prometheus
+    networks:
+      - monitoring
+
+  # Drift Server
+  
+  drift_server:
+    image: drift_server:latest
+    container_name: model_drift
+    volumes:
+      - ./drift/data:/app/data
+    ports:
+      - "8009:8009"
+    environment:
+      - PROMETHEUS_METRICS_PORT=8009
+    depends_on:
+      - prometheus
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+
+volumes:
+  grafana-data:

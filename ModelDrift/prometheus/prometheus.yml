@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'model_drift'
+    static_configs:
+      - targets: ['drift_server:8009']

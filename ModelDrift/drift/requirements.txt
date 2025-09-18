@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+pandas
+prometheus-client
+evidently==0.4.34
