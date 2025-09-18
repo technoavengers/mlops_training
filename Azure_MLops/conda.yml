@@ -1,0 +1,8 @@
+name: walmart-env
+dependencies:
+  - python=3.10
+  - scikit-learn
+  - pandas
+  - pip:
+      - joblib
+      - mlflow
